@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    image: express4-template
+    container_name: express4-template-app
+    ports:
+      - 3000:3000
+  redis:
+    image: redis:3.0.7-alpine
+    container_name: express4-template-redis
+    ports:
+      - 6379:6379
