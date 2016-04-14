@@ -1,7 +1,7 @@
 # express4-template
 
-This repository provides `nodejs+express4` template. The template is **NOT** simple example.  
-This structure is to be able to use immediately in production environment.
+This repository provides `nodejs+express4` template.
+This repository is to be able to use immediately in production environment.
 
 
 [![Build Status](https://travis-ci.com/takecy/express4-template.svg?branch=master)](https://travis-ci.com/takecy/express4-template)  
@@ -9,9 +9,19 @@ This structure is to be able to use immediately in production environment.
 [![nodejs](https://img.shields.io/badge/nodejs-4.4.3+-blue.svg?style=flat-square)](https://nodejs.org)
 [![npm](https://img.shields.io/badge/npm-3.4.4+-blue.svg?style=flat-square)](https://www.npmjs.com/)
 
-[![nodejs](https://img.shields.io/badge/docker-1.10.3-blue.svg?style=flat-square)](https://nodejs.org)
-[![nodejs](https://img.shields.io/badge/docker--compose-1.6.2-blue.svg?style=flat-square)](https://nodejs.org)
+[![docker](https://img.shields.io/badge/docker-1.10.3-blue.svg?style=flat-square)](https://nodejs.org)
+[![docker-compose](https://img.shields.io/badge/docker--compose-1.6.2-blue.svg?style=flat-square)](https://nodejs.org)
 
+
+<br/>
+## Goal
+It is to be able to use immediately in production environment.  
+
+### Not Goal
+ES2015 lesson.  
+docker lesson.  
+nodejs hello-world.  
+express hello-world.  
 
 <br/>
 ## Quick Start
@@ -44,6 +54,7 @@ $ make run
 * determine configuration by `NODE_ENV` environment variables
 * routing of api and views
 * development on local by docker
+* testing by mocha and chai
 
 <br/>
 ## License
