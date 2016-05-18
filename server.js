@@ -1,13 +1,13 @@
 'use strict';
 
-let app = require('./app');
-let debug = require('debug')('express4-template:server');
-let http = require('http');
+const app = require('./app');
+const debug = require('debug')('express4-template:server');
+const http = require('http');
 
-let port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
-let server = http.createServer(app);
+const server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);

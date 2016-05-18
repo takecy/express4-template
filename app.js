@@ -1,17 +1,17 @@
 'use strict';
 
-let express = require('express');
-let path = require('path');
-let favicon = require('serve-favicon');
-let logger = require('morgan');
-let cookieParser = require('cookie-parser');
-let bodyParser = require('body-parser');
-let compression = require('compression');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const compression = require('compression');
 
-let routes = require('./routes/index');
-let users = require('./routes/users');
+const routes = require('./routes/index');
+const users = require('./routes/users');
 
-let app = express();
+const app = express();
 
 // ---------------------
 // middleware

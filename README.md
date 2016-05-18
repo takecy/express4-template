@@ -1,27 +1,31 @@
-# express4-template
+# nodejs + express4 template
 
-This repository provides `nodejs+express4` template.
+**Work in progress...**
+
+<br/>
+This repository provides `nodejs+express4` template.  
 This repository is to be able to use immediately in production environment.
 
 
 [![Build Status](https://travis-ci.com/takecy/express4-template.svg?branch=master)](https://travis-ci.com/takecy/express4-template)  
 
-[![nodejs](https://img.shields.io/badge/nodejs-4.4.3+-blue.svg?style=flat-square)](https://nodejs.org)
-[![npm](https://img.shields.io/badge/npm-3.4.4+-blue.svg?style=flat-square)](https://www.npmjs.com/)
+[![nodejs](https://img.shields.io/badge/nodejs-6.x-blue.svg?style=flat-square)](https://nodejs.org)
+[![npm](https://img.shields.io/badge/npm-3.3.6+-blue.svg?style=flat-square)](https://www.npmjs.com/)
 
-[![docker](https://img.shields.io/badge/docker-1.10.3-blue.svg?style=flat-square)](https://nodejs.org)
-[![docker-compose](https://img.shields.io/badge/docker--compose-1.6.2-blue.svg?style=flat-square)](https://nodejs.org)
+[![docker](https://img.shields.io/badge/docker-1.11.1-blue.svg?style=flat-square)](https://nodejs.org)
+[![docker-compose](https://img.shields.io/badge/docker--compose-1.7.1-blue.svg?style=flat-square)](https://nodejs.org)
 
 
 <br/>
-## Goal
-It is to be able to use immediately in production environment.  
+## Goals
+* It is to be able to use immediately in production environment.  
+* more easy development integration on local.
 
-### Not Goal
-ES2015 lesson.  
-docker lesson.  
-nodejs hello-world.  
-express hello-world.  
+### Not Goals
+* ES2015 hello-world.  
+* docker hello-world.  
+* nodejs hello-world.  
+* express hello-world.  
 
 <br/>
 ## Quick Start
@@ -43,8 +47,8 @@ $ make run
 <br/>
 ## Included Features
 
-* nodejs 4.x
- * ES2015
+* nodejs 6.x + exporess 4.x
+ * part of ES2015
  * use strict mode
  * not use generator
  * jshint
@@ -52,9 +56,13 @@ $ make run
 * process managed by pm2
 * session managed by Redis
 * determine configuration by `NODE_ENV` environment variables
-* routing of api and views
+* routing of apis and views
 * development on local by docker
 * testing by mocha and chai
+
+<br/>
+## Contributing
+Pull-Requests are welcome!
 
 <br/>
 ## License
