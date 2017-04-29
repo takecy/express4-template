@@ -3,6 +3,7 @@
 **Work in progress...**
 
 <br/>
+
 This repository provides `nodejs+express4` template.  
 This repository is to be able to use immediately in production environment.
 
@@ -17,6 +18,7 @@ This repository is to be able to use immediately in production environment.
 
 
 <br/>
+
 ## Goals
 * It is to be able to use immediately in production environment.  
 * more easy development integration on local.
@@ -28,6 +30,7 @@ This repository is to be able to use immediately in production environment.
 * express hello-world.  
 
 <br/>
+
 ## Quick Start
 ### via npm
 ```
@@ -45,6 +48,7 @@ $ make run
 ```
 
 <br/>
+
 ## Included Features
 
 * nodejs 6.x + exporess 4.x
@@ -61,9 +65,6 @@ $ make run
 * testing by mocha and chai
 
 <br/>
-## Contributing
-Pull-Requests are welcome!
 
-<br/>
 ## License
 [MIT](./LICENSE)
