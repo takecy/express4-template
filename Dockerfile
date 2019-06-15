@@ -1,13 +1,17 @@
-FROM mhart/alpine-node:4.4.3
+FROM node:12.4.0-alpine AS node-build
 
-MAINTAINER takecy
+LABEL maintainer=AWA
 
-RUN mkdir /usr/local/app \
-&& npm i -g gulp pm2
+WORKDIR /usr/src/app
 
-COPY . /usr/local/app
-WORKDIR /usr/local/app
+RUN apk add --no-cache bash git openssh
 
-RUN npm i && gulp build
+ARG NODE_ENV
+ENV NODE_ENV $NODE_ENV
+COPY package.json package-lock.json /usr/src/app/
+RUN npm i
+COPY . /usr/src/app
 
-CMD ["npm", "start"]
+EXPOSE 3000
+
+CMD [ "npde" ,"server.js"]
