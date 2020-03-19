@@ -34,7 +34,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sourcemaps": "^2.6.5",
     "imagemin-pngquant": "^8.0.0",
-    "mocha": "^7.1.0",
+    "mocha": "^7.1.1",
     "require-dir": "^1.2.0"
   }
 }
