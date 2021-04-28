@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: redis
+    versions:
+    - 3.1.0
+    - 3.1.1
+  - dependency-name: mocha
+    versions:
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: imagemin-pngquant
+    versions:
+    - 9.0.2
+  - dependency-name: chai
+    versions:
+    - 4.3.0
+    - 4.3.1
+    - 4.3.3
+  - dependency-name: pug
+    versions:
+    - 3.0.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.21
+  - dependency-name: connect-redis
+    versions:
+    - 5.1.0
